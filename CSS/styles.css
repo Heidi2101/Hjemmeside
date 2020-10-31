@@ -7236,7 +7236,22 @@ img {
     height: 30px;
     width: 50px;
     margin-left: -60px;
-    justify-items: center; } }
+    justify-items: center; }
+  .overskrift {
+    font-family: Rumba;
+    font-size: 25px; }
+  .underoverskrift {
+    font-family: Rumba;
+    font-size: 20px; }
+  .txt {
+    font-family: Rumba;
+    font-size: 17px; }
+  .undertext {
+    font-family: Rumba;
+    font-size: 18px; }
+  h3 {
+    font-family: Rumba;
+    font-size: 25px; } }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
