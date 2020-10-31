@@ -40,3 +40,22 @@ img {
 	height: auto; /* Højden skal tilpasse sig */
 }
 
+
+@media #{$myStyles} {
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+.logo{
+	height: 30px;
+	width: 50px;
+	margin-left: -60px;
+	justify-items: center ;
+
+}
+
+}

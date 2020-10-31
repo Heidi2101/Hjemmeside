@@ -7166,9 +7166,14 @@ a.text-dark:hover, a.text-dark:focus {
 ul ol {
   margin-bottom: 20px; }
 
-.bg {
-  background-image: url("images/havngradient.png");
-  background-repeat: no-repeat; }
+body {
+  background-image: url("../images/havngradient.png"); }
+
+.btn1 {
+  border-radius: 20px !important;
+  height: 50px;
+  width: 100px;
+  font-size: 20px; }
 
 body {
   font-family: 'Rumba';
@@ -7222,6 +7227,16 @@ img {
   /* Bredde må maks fylde 100% */
   height: auto;
   /* Højden skal tilpasse sig */ }
+
+@media screen and (min-width: 320px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between; }
+  .logo {
+    height: 30px;
+    width: 50px;
+    margin-left: -60px;
+    justify-items: center; } }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
