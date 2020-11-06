@@ -7176,8 +7176,11 @@ body {
   font-size: 20px; }
 
 body {
-  font-family: 'Rumba';
+  font-family: "Arial Rounded MT Bold", serif;
   font-size: 22px; }
+
+.fa-search {
+  cursor: pointer; }
 
 /* BOOTSTRAP SLUT */
 /* ------------------------------------------------------------- */
